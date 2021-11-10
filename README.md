@@ -16,7 +16,7 @@ Ce labyrinthe est généré aléatoirement en respectant deux propriétés :
 Graphes
 --------------------------------------------------------------------------------
 
-Un graphe orienté et pondéré est représenté par le triplet composé :
+Un graphe orienté et pondéré est représenté par le triplet composé 
 
   - d'un ensemble `vertices` de sommets,
 
@@ -145,7 +145,7 @@ Dans tous les cas, pour mesurer les (éventuels) progrès réalisés,
 nous pourrons afficher le temps passé à déterminer les chemins optimaux ;
 par exemple :
 
-```python
+``` python
 start = time.time()
 paths = shortest_paths(maze, origin)
 stop = time.time()
